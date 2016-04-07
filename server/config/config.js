@@ -3,13 +3,13 @@ var rootPath = path.normalize(__dirname + '/../../');
 
 module.exports = {
   development: {
-    db: 'mongodb://localhost/Rubium1',
+    db: 'mongodb://Neardanger:magadan312@ds019480.mlab.com:19480/rubium1',
     rootPath: rootPath,
     port: process.env.PORT || 8000
   },
   production: {
     rootPath: rootPath,
-    db: 'mongodb://mongodb://Neardanger:magadan312@ds015750.mlab.com:15750/rubium',
+    db: 'mongodb://Neardanger:magadan312@ds019480.mlab.com:19480/rubium1',
     port: process.env.PORT || 80
   }
 }
