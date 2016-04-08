@@ -34,8 +34,8 @@ This website simplifies making itineraries by giving you realtime access to Yelp
  ![second_screen](wireframes/FullSizeRender[1].jpg)
 
  ![third_screen](wireframes/IMG_0268.jpg)
- 
- ![third_screen](wireframes/IMG_0269.jpg)
+
+ ![fourth_screen](wireframes/IMG_0269.jpg)
 
 ### Data Model
 
