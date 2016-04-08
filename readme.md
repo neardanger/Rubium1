@@ -1,8 +1,8 @@
 # Rubium
 
-https://skedj.herokuapp.com/
+http://rubium1.herokuapp.com/#/
 
-https://trello.com/b/afv84TWz/wdi-p3
+https://trello.com/b/CEETPyw8/rubium
 
 ### Description
 
