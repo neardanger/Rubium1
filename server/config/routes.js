@@ -12,9 +12,11 @@ module.exports = function(app) {
   /////////////////////////////////////////////
 
   app.get('/api/courses', courses.getCourses);
+  app.get('/api/courses/:id', courses.getCourseById);
   /////////////////////////////////////////////
 
   app.get('/partials/*', function(req, res) {
+    console.log("req object should be here", req.params)
     res.render('../../public/app/' + req.params[0]);
   });
 

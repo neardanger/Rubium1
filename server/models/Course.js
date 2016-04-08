@@ -29,6 +29,7 @@ function createDefaultCourses() {
       Course.create({title: 'Code Reviews', featured: false, published: new Date('10/1/2015'), tags: ['Coding']});
       Course.create({title: 'How to Deal with', featured: true, published: new Date('2/15/2015'), tags: ['Misc']});
       Course.create({title: 'Kek mank meme', featured: true, published: new Date('7/1/2015'), tags: ['Coding', 'Misc']});
+      Course.create({title: 'Kanker Sore', featured: true, published: new Date('7/11/2015'), tags: ['Coding', 'Misc']});
     }
   })
 };

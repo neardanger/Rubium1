@@ -6,6 +6,8 @@ var cookieParser = require('cookie-parser')
 var session = require('express-session')
 var passport = require('passport')
 
+
+
 module.exports = function(app, config) {
   function compile(str, path) {
     return stylus(str).set('filename', path);
@@ -21,12 +23,12 @@ src:config.rootPath + '/public',
 compile: compile
 }))
 app.use(cookieParser())
-app.use(bodyParser.urlencoded({extended:true}))
-app.use(bodyParser.json())
 app.use(session({
 secret: "A DANK MEME",
 cookie: {_expires: 6000000}
 }))
+app.use(bodyParser.urlencoded({extended:false}))
+app.use(bodyParser.json())
 app.use(passport.initialize())
 app.use(passport.session())
 app.use(express.static(config.rootPath + '/public'));

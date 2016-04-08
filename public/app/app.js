@@ -1,6 +1,7 @@
 angular.module('app', ['ngResource', 'ngRoute']);
 
 angular.module('app').config(function($routeProvider, $locationProvider) {
+
   var routeRoleChecks = {
     admin: {auth: function(mvAuth) {
       return mvAuth.authorizeCurrentUserForRoute('admin')
@@ -24,6 +25,9 @@ angular.module('app').config(function($routeProvider, $locationProvider) {
     })
     .when('/courses', { templateUrl: '/partials/courses/course-list',
       controller: 'mvCourseListCtrl'
+    })
+    .when('/courses/:id', { templateUrl: '/partials/courses/course-details',
+      controller: 'mvCourseDetailCtrl'
     })
 
 });
