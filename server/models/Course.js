@@ -25,11 +25,18 @@ function createDefaultCourses() {
       Course.create({title: 'Stack Overflow', featured: true, published: new Date('10/7/2016'), tags: ['Misc']});
       Course.create({title: 'How to keep your coding job', featured: false, published: new Date('8/1/2015'), tags: ['Management']});
       Course.create({title: 'Accepting Failure', featured: false, published: new Date('11/1/2015'), tags: ['Misc']});
-      Course.create({title: "Writing Code the right way", featured: true, published: new Date('10/13/2015'), tags: ['Coding']});
+      Course.create({title: 'Writing Code the right way', featured: true, published: new Date('10/13/2015'), tags: ['Coding']});
       Course.create({title: 'Code Reviews', featured: false, published: new Date('10/1/2015'), tags: ['Coding']});
       Course.create({title: 'How to Deal with criticism', featured: true, published: new Date('2/15/2015'), tags: ['Misc']});
       Course.create({title: 'Using React', featured: true, published: new Date('7/1/2015'), tags: ['Coding', 'Misc']});
       Course.create({title: 'Angular.js guide', featured: true, published: new Date('7/11/2015'), tags: ['Coding', 'Misc']});
+      Course.create({title: 'Coding in F#', featured: true, published: new Date('8/1/2012'), tags: ['F#','Coding']});
+      Course.create({title: 'Learn to learn', featured: true, published: new Date('11/1/2012'), tags: ['Misc']});
+      Course.create({title: 'Does HTML or CSS count as coding?', featured: true, published: new Date('10/13/2012'), tags: ['HTML','CSS']});
+      Course.create({title: 'HTML and CSS', featured: false, published: new Date('10/1/2012'), tags: ['CSS','HTML']});
+      Course.create({title: 'How to Deal with Coworkers', featured: true, published: new Date('2/15/2012'), tags: ['Misc']});
+      Course.create({title: 'Angular vs React', featured: false, published: new Date('7/1/2012'), tags: ['Coding', 'Misc','React']});
+      Course.create({title: 'Pretend to know what you are talking about', featured: true, published: new Date('7/11/2012'), tags: ['Coding', 'Misc']});
     }
   })
 };
