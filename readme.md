@@ -1,4 +1,4 @@
-# Skedj
+# Rubium
 
 https://skedj.herokuapp.com/
 
@@ -6,7 +6,7 @@ https://trello.com/b/afv84TWz/wdi-p3
 
 ### Description
 
-This website simplifies making itineraries by giving you realtime access to Yelp's api giving you a rundown of restaurant, bars, events, etc in your geolocated area. We give you an easy step by step process that lets you plug in what you want to our "sophisticated algorithm", and in return you receive the most ideal schedule combination of business based off of your needs & location.
+This website is intended to be a learning platform with an emphasis on security, and free knowledge. The application has a great foundation to add more features do to refactoring. View all available course. Browse by category or tag and find your lesson; lets get learning!
 
 ### Technologies Used
 
@@ -19,13 +19,6 @@ This website simplifies making itineraries by giving you realtime access to Yelp
 - CSS
 - Jade
 
-### Third-party APIs
-
-- Yelp
-
-### OAuth Providers
-
-- Facebook
 
 ### Wireframes
 
@@ -41,8 +34,6 @@ This website simplifies making itineraries by giving you realtime access to Yelp
 
 
 - User
-  - contains user data (email, password, saved schedules[links as reference])
-- Schedule
-  - contains times and an array of businesses (embeded)
-- Business
-  - contains reference to a Yelp business id, plus parameters for quick display on frontend
+  - contains user data (email, password)
+- Courses
+  - contains all default courses
