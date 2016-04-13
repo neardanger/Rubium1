@@ -7,10 +7,6 @@ module.exports = {
     port: 8000
   },
   rootPath: rootPath
-
-  // production: {
-  //   rootPath: rootPath,
-  //   db: 'mongodb://Neardanger:magadan312@ds019480.mlab.com:19480/rubium1',
-  //   port: process.env.PORT || 80
-  // }
 }
+
+//To host on mongo
