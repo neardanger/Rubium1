@@ -5,6 +5,7 @@ var bodyParser = require('body-parser')
 var cookieParser = require('cookie-parser')
 var session = require('express-session')
 var passport = require('passport')
+//Require
 
 
 
@@ -13,7 +14,7 @@ module.exports = function(app, config) {
     return stylus(str).set('filename', path);
   }
 
-  //DANK MIDDLEWARE
+  //Middleware
 app.set('views',config.rootPath + '/server/views')
 app.set('view engine','jade')
 app.use(logger('dev'))

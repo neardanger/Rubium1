@@ -15,6 +15,8 @@ angular.module('app').factory('mvAuth', function($http, mvIdentity, $q, mvUser) 
       return dankmeme.promise;
     },
 
+    //Returns promise if it is true
+
     createUser: function(newUserData) {
       var newUser = new mvUser(newUserData);
       var mankmeme = $q.defer();

@@ -15,6 +15,7 @@ module.exports = function(app) {
   app.get('/api/courses/:id', courses.getCourseById);
   /////////////////////////////////////////////
 
+//Renders all of the partials
   app.get('/partials/*', function(req, res) {
     console.log("req object should be here", req.params)
     res.render('../../public/app/' + req.params[0]);
@@ -27,6 +28,7 @@ module.exports = function(app) {
     res.end();
   });
 
+//Wild card route this is the route it goes to for all of the templates
   app.get('*', function(req, res) {
     res.render('index', {
       bootstrappedUser: req.user
